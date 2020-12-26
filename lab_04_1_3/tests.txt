@@ -1,0 +1,82 @@
+#test1
+#input
+aa bb cc vv
+#output
+c b a
+#exitcode
+0
+
+#test2
+#input
+qfew  grerg e   ,   . ? qwer aaac vbg e
+#output
+vbg ac qwer gre qfew
+#exitcode
+0
+
+#test3
+#input
+Kirill, are you okay?
+#output
+you are Kirl
+#exitcode
+0
+
+#test4
+#input
+aaaabbbbccccddddf
+#output
+None
+#exitcode
+1
+
+#test5
+#input
+Baced, aarwe!? kik ab    : eret kik kik   
+#output
+ert ab arwe Baced
+#exitcode
+0
+
+#test6
+#input
+ab
+#output
+None
+#exitcode
+1
+
+#test7
+#input
+, .
+#output
+None
+#exitcode
+1
+
+#test8
+#input
+aaaaaa
+ddd
+aabbaa
+#output
+d a
+#exitcode
+0
+
+#test9
+#input
+a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+#output
+None
+#exitcode
+1
+
+#test10
+#input
+a a a a
+#output
+None
+#exitcode
+1
+

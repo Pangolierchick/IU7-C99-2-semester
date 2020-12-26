@@ -1,0 +1,50 @@
+#test 1
+#input
+test1.txt
+#output
+5.400000
+8.640000
+#exitcode
+0
+
+#test 2
+#input
+test2.txt
+#output
+None
+#exitcode
+1
+
+#test 3
+#input
+test3.txt
+#output
+None
+#exitcode
+1
+
+#test 4
+#input
+test4.txt
+#output
+4.200000
+6.160000
+#exitcode
+0
+
+#test 5
+#input
+test5.txt
+#output
+0.600000
+10.428000
+#exitcode
+0
+
+#test 6
+#input
+nonexistening.txt
+#output
+None
+#exitcode
+1

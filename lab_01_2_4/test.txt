@@ -1,0 +1,19 @@
+test 1:
+
+input values: 3600
+output values: 1 0 0
+
+test 2:
+
+input values: 500
+output values: 0 8 20
+
+test 3:
+
+input values: 345734
+output values: 96 2 14
+
+test 4:
+
+input values: 35
+output values: 0 0 35

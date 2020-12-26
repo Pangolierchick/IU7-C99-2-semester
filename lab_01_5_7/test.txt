@@ -1,0 +1,46 @@
+positive tests:
+	test 1:
+
+	input values: 0.87 1e-5 
+	output values: 2.028156 2.028185 0.000029 0.000014
+	
+	test 2:
+
+	input values: 0.5 0.1
+	output values: 1.148438 1.154701 0.006263 0.005424
+
+	test 3:
+
+	input values: 0.65 0.999
+	output values: 1.211250 1.315903 0.104653 0.079530
+
+	test 4:
+
+	input values: -0.8 0.2 
+	output values: 1.473600 1.666667 0.193067 0.115840
+
+negative tests:
+	test 1:
+
+	input values: 2 0.5 
+	output values: none
+
+	test 2:
+
+	input values: a 0.3 
+	output values: none
+
+	test 3:
+
+	input values: 0.3 a
+	output values: none
+
+	test 4:
+
+	input values: 0.5 2
+	output values: none
+
+	test 5:
+
+	input values: 0.5 -1
+	output values: none

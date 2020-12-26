@@ -1,0 +1,106 @@
+#test1
+#input
+abc, aabc
+#output
+aabc abc
+#exitcode
+0
+
+#test2
+#input
+aaaaaaaaaaaaaaaaaaaa
+#output
+None
+#exitcode
+1
+
+#test3
+#input
+d,b!c a
+#output
+a b c d
+#exitcode
+0
+
+#test4
+#input
+aa bb   , aa aa     ! .     , ? : ; cd er oi
+#output
+aa bb cd er oi
+#exitcode
+0
+
+#test5
+#input
+aa aa aa aa aa
+#output
+aa
+#exitcode
+0
+
+#test6
+#input
+aa aa bb bb
+#output
+aa bb
+#exitcode
+0
+
+#test7
+#input
+Kirill, what are you doing?!
+#output
+Kirill are doing what you
+#exitcode
+0
+
+#test8
+#input
+aaaaaa
+ddd
+aabbaa
+ced
+#output
+aaaaaa aabbaa ced ddd
+#exitcode
+0
+
+#test9
+#input
+. ,
+#output
+None
+#exitcode
+1
+
+#test10
+#input
+a aa aaa aaaa
+#output
+a aa aaa aaaa
+#exitcode
+0
+
+#test11
+#input
+math, mathematics
+#output
+math mathematics
+#exitcode
+0
+
+#test12
+#input
+a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a e
+#output
+None
+#exitcode
+1
+
+#test13
+#input
+ab rhg egn erng enrg enjdfv de jnegner omvxkmv jj dfjhw ngjeng sdjvn jrjg eerg jv dfv er te we x f dsfe tg c bdfbn d wf we  r t  x f x n j kw k  hj ei t udfvm odfm jen jnerj njinvjienr jvnerj nvjern jven jenr jnveir iernv jiernvji enrvji nerjvn ern
+#output
+None
+#exitcode
+0
